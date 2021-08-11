@@ -15,6 +15,14 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+public slots:
+   // void onDisplayLCD(int val);
+
+    void on_raidBtn2_clicked(int val);
+    void onSetClolor(int val);
+
+
+
 private:
     Ui::MainWindow *ui;
 };
