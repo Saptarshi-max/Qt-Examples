@@ -22,6 +22,8 @@ void MainWindow::onSetClolor(int val)
 {
     Q_UNUSED(val)
 
+    ui->dial->setRange(0,255);
+
     int nRed = ui->dial->value();             //获取红绿蓝(RGB)的Slider的数值
 
 
